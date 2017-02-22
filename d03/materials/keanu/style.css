@@ -6,13 +6,19 @@ h1 {
 			color: crimson;
 }
 body {
-			text-align: center;
-			font-family: "palatino", serif;
+	text-align: center;
 }
 p {
 	color: green;
 	font-size: 125%;
+	font-family: "palatino";
 }
 li {
 				list-style-type: none;
-			}
+}
+#fast {
+	font-style: italic;
+}
+.action {
+	font-family: comic;
+}
