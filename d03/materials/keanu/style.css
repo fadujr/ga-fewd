@@ -1,0 +1,18 @@
+h1 {
+			font-family: "palatino", serif;
+			font-weight: 900;
+			font-size: 50px;
+			font-style: oblique;
+			color: crimson;
+}
+body {
+			text-align: center;
+			font-family: "palatino", serif;
+}
+p {
+	color: green;
+	font-size: 125%;
+}
+li {
+				list-style-type: none;
+			}
