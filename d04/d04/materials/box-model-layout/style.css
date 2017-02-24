@@ -1,0 +1,28 @@
+div {
+	background-color: #C8DCE3;
+	padding: 10px;
+	margin: 0 auto;
+	width: 700px;
+}
+.lorem {
+	background-color: salmon;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+#blue {
+	color: blue;
+}
+#first {
+	background-color: black;
+	color: white;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	text-align: center;
+	padding: 5px;
+}
+#yellow {
+	color: yellow;
+}
+#green {
+	color: green;
+}
