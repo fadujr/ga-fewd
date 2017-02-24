@@ -1,0 +1,17 @@
+h1 {
+  color: #7FDBFF;
+  background-color: #23FA42;
+  margin: 15px 30px 15px 50px;
+  height: 40px;
+  width: 430px;
+  padding: 5px 10px 10px 5px;
+  font-size: 35px;
+}
+div {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 20px;
+}
