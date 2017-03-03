@@ -1,0 +1,78 @@
+h1, h2 {
+	display: inline-block;
+	margin: 0;
+}
+h1 {
+	color: #FFFFFF;
+	background-color: rgba(155, 10, 0, 1);
+	padding: 10px 5px 10px 120px;
+	margin: 0;
+}
+h2 {
+	padding-left: 5px;
+	font-size: 16px;
+	color: rgba(209, 232, 240, 1);
+}
+div#container {
+	width: 960px;
+	margin: 0 auto;
+	border-left: 4px solid;
+	border-right: 15px solid;
+}
+img {
+	width: 100%;
+	object-fit: cover;
+	height: 300px;
+}
+div.content {
+	width: 400px;
+	margin: 0 auto;
+}
+p {
+	color: rgba(72, 98, 107, 1);
+	line-height: 22px;
+}
+p.footer {
+	text-align: center;
+}
+p.info {
+	padding: 0;
+}
+a {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: #FFFFFF;
+	width: 190px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+#e-mail {
+	width: 100%;
+}
+#e-mail, #dribbble {
+	background-color: rgba(154, 167, 174, 1);
+}
+#pinterest {
+	background-color: rgba(245, 17, 55, 1);
+}
+#twitter, #rdio {
+	background-color: rgba(98, 202, 245, 1);
+}
+#e-mail, #twitter, #medium, #pinterest {
+	margin-right: 15px;
+}
+#medium {
+	background-color: rgba(0, 0, 0, 1);
+}
+#instagram {
+	background-color: rgba(22, 120, 22, 1)
+}
+p.footer {
+	width: 100%;
+	background-color: rgba(63, 83, 89, 1);
+	color: gray;
+	padding: 25px 0;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
