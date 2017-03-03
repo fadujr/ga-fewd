@@ -1,0 +1,81 @@
+.container {
+	padding-left: 35px;
+	font-family: "Lato";
+	line-height: 1.5;
+	width: 600px;
+	color: #444444;
+}
+h1, h2, h3 {
+	font-weight: normal;
+	font-size: 200%;
+}
+h1 {
+	color: rgba(255, 0, 0, 1);
+	margin: 0;
+	padding-top: 50px;
+	font-size: 300%;
+}
+h2 {
+	color: #000000;
+	margin: 0 0 15px 0;
+}
+h3 {
+	margin: 0;
+}
+a {
+	color: #dddddd;
+}
+a:hover {
+	color: #000000;
+}
+.nav-bar {
+	font-size: 125%;
+	padding: 15px 0;
+	margin: 15px 5px 15px 0;
+}
+.header{
+	margin-bottom: 30px;
+}
+.continues:hover {
+	color: #aa0000;
+}
+.continues {
+	font-weight: bold;
+	text-decoration: none;
+	color: #DD0000;
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+img {
+	width: 100%;
+}
+.date {
+	color: #cccccc;
+}
+.article-title {
+	color: #000000;
+}
+.copyright {
+	color: #bbbbbb;
+}
+.footer {
+	text-decoration: none;
+	color: #DD0000;
+	text-align: center;
+	padding: 20px 5px;
+}
+.footer:hover {
+	color: #aa0000;
+}
+#home {
+	margin-left: 0;
+	padding-left: 0;
+}
+.bottom {
+	margin: 50px 0 50px 0;
+}
+.first, .second {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
