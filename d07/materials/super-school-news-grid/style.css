@@ -1,0 +1,15 @@
+.header {
+	background-color: gold;
+}
+
+.nav {
+	text-align: right;
+}
+.nav a {
+	text-decoration: none;
+	color: black;
+	padding: 12px 0;
+	display: inline-block;
+}
+
+@media (max-width: 480px)
