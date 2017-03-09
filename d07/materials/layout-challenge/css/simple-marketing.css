@@ -1,0 +1,35 @@
+div:not(.container) {
+	background-color: gray;
+	border: 1px solid black;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.head-foot {
+	height: 100px;
+	margin: 20px 0;
+}
+
+.article {
+	height: 250px;
+	margin: 0 20px;
+}
+.second-row {
+	height: 250px;
+	width: 150px;
+	margin-bottom: 20px;
+}
+
+.blurb {
+	height: 50px;
+	width: 50px;
+	margin: 0 20px;
+}
+
+.third-row {
+	height: 50px;
+	width: 50px;
+	margin-bottom: 20px;
+}

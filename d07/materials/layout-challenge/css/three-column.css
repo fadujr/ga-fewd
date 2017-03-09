@@ -1,0 +1,29 @@
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.header, .footer, .main-content, .side-bar {
+	background-color: gray;
+	border: 1px solid black;
+}
+
+.header, .footer {
+	height: 200px;
+	margin: 15px 0;
+}
+.body {
+	width: 90%;
+}
+.main-content {
+	margin: 0;
+}
+
+.main-content, .side-bar {
+	display: inline-block;
+	height: 500px;
+}
+
+.nav {
+	padding-top: 35px;
+}

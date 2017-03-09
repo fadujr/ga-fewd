@@ -1,0 +1,35 @@
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+div:not(.container){
+	background-color: gray;
+	border: 1px solid black;
+}
+
+.header {
+	height: 100px;
+}
+
+.first {
+	height: 75px;
+	width: 100px;
+}
+
+.menu {
+	height: 40px;
+	width: 60px;
+}
+
+.article {
+	height: 100px;
+}
+
+.blurb {
+	height: 50px;
+}
+
+.footer {
+	height: 75px;
+}
