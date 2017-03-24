@@ -1,0 +1,13 @@
+.box {
+	height: 200px;
+	width: 200px;
+	border: 2px dashed black;
+	background-color: #3A20F1;
+	display: inline-block;
+	margin: 25px;
+}
+
+article.bigger {
+	height: 500px;
+	width: 500px;
+}
