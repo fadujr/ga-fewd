@@ -9,13 +9,17 @@
 <body>
 
   <label>
-    Temperature in Celsius
+    Temperature in 
+    <select>
+      <option value="deg-f" ="deg-f">Fahrenheit</option>
+      <option value="deg-c">Celsius</option>
+    </select>
     <input type="text" id="temperature" />
   </label>
 
   <button>Convert!</button>
 
-  <p>That is equal to <span id="converted"></span>° Fahrenheit.</p>
+  <p>That is equal to <span id="converted"></span>° Fahrenheit</p>
 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/project.js"></script>
