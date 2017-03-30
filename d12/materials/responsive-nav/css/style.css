@@ -1,0 +1,63 @@
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	margin: 10px;
+	background-color: #000000;
+}
+
+h1, a {
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+.fafabar {
+	display: none;
+}
+
+a:hover {
+	background-color: orange;
+}
+
+nav {
+	text-align: right;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 760px){
+	nav {
+		display: none;
+		width: 100%;
+	}
+
+	.hamburger {
+		width: 30px;
+		height: 5px;
+		background-color: #FFFFFF;
+		margin: 5px;
+	}
+
+	.fafabar {
+		display: inline-block;
+		float: right;
+	}
+
+	.mini {
+		float: right;
+	}
+
+	.shown {
+		display: block;
+	}
+
+	a {
+		display: block;
+		text-align: center;
+		width: 100%;
+		padding: 50px;
+	}
+}
