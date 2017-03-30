@@ -10,8 +10,8 @@ $("button").on("click", function()
 	if ($("select").val("deg-c"))
 	{
 		var f = $("input").val();
-		var c = 0.5555 * (parseInt(f) - 32);
-		$("span").text(c.toString());
-		$("p").text("That is equal to degrees Celsius");
+		var c = (parseInt(f) - 32)/1.8;
+		var text = $("span").text(c.toString());
+		$("p").text("That is equal to " + text + " degrees Celsius");
 	}
 });
