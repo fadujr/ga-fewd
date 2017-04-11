@@ -1,0 +1,32 @@
+main {
+	min-height: 100vh;
+}
+
+.board {
+	width: 75vh;
+	height: 75vh;
+	margin: auto;
+}
+
+.board div {
+	display: inline-block;
+	margin: 0;
+}
+
+.board > div {
+	width: 20vh;
+	height: 20vh;
+	border: 3px solid black;
+	margin: 0;
+}
+
+.board * div {
+	width: 6.33333333vh;
+	height: 6.3333333vh;
+	border: 1px solid black;
+	margin: 0;
+}
+
+.board * div:hover {
+	background-color: lightblue;
+}
